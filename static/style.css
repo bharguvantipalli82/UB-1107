@@ -1,0 +1,210 @@
+/* ===== GLOBAL THEME ===== */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, #a8e6cf, #dcedc1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ===== COMMON CARD ===== */
+
+.container,
+.landing-container {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ===== HEADINGS ===== */
+
+h1,
+h2 {
+    color: #2e8b57;
+}
+
+
+/* ===== TEXT ===== */
+
+.tagline {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.warning {
+    color: red;
+    margin-top: 10px;
+}
+
+
+/* ===== INPUTS ===== */
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+
+/* ===== BUTTONS ===== */
+
+button {
+    background: #2e8b57;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #246b45;
+}
+
+
+/* ===== LANDING FEATURES ===== */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.feature-card {
+    background: #f1f8f5;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.feature-card h3 {
+    color: #2e8b57;
+}
+
+
+/* ===== LOGIN PAGE ===== */
+
+.login-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.login-subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.login-card input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.login-card button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login-hint {
+    font-size: 12px;
+    color: #666;
+    margin-top: 15px;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+
+/* ===== HEALTH RESULT CARDS ===== */
+
+.result-card {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.result-card span {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.success {
+    background: #e6f7ef;
+    /* soft green */
+    color: #2e8b57;
+}
+
+.danger {
+    background: #fdecea;
+    /* soft red */
+    color: #c0392b;
+}
+
+
+/* ===== GOOGLE MAPS LINK ===== */
+
+.doctor-link {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #e6f7ef;
+    /* matches green theme */
+    text-align: center;
+}
+
+.doctor-link h3 {
+    color: #2e8b57;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+.doctor-link a {
+    text-decoration: none;
+    color: #2e8b57;
+    font-weight: bold;
+}
+
+.doctor-link a:hover {
+    text-decoration: underline;
+}
